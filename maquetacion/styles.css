@@ -1,31 +1,79 @@
-
+:root {
+    --blanco: #fff;
+    --fondo: #201b24;
+}
 
 
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
-
+body {
+    margin: 0;
+}
 p {
     margin-right: 2em;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1.2;
     font-weight: 500;
 }
+
+/* Navegacion */
+#navbar {
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 20px 130px;
+    justify-content: space-between;
+   
+}
+
+div#navbar-left img {
+    width: 11em;
+}
+
 
 button {
     background-color: white;
     border-radius: 30px;
     padding: 0px 1.5em;
     height: 2.5em;
-    border: 2px solid black;
-    font-size: 0.8em;
+    border: 3px solid black;
+    font-size: 0.9em;
     width: 8em;
+    
+}
+.botones {
+    display: flex;
+    justify-content: center;
+    
 }
 
-div#navbar-left img {
-    width: 8em;
+.contacto {
+    background-color: var(--blanco);
+    color: #000;
+    border-radius: 30px;
+    padding: 0px 1.5em;
+    height: 3em;
+    border: 3px solid black;
+    font-size: 0.9em;
+    width: 11em;
+    
 }
+
+.sumate {
+    background-color: var(--blanco);
+    color: #6b53f0;
+    border-radius: 30px;
+    padding: 0px 1.5em;
+    height: 3em;
+    border: 3px solid #6b53f0;
+    font-size: 0.9em;
+    width: 10em;
+}
+ ul {
+    list-style: none;
+ }
+
 
 @media (width >= 2500px) {
     html {
@@ -38,3 +86,18 @@ div#navbar-left img {
         font-size: 32px;
     }
 }
+
+
+
+.titulo h1 {
+    margin-top: 2.5em;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.contenido-banner {
+    text-align: center;
+}
+
+
+
